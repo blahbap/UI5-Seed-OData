@@ -10,14 +10,14 @@
 					      class="sapUiResponsiveMargin"
 					      width="auto"
 					      items="{
-					         path : 'procedure>/Procedures',
+					         path : 'procedure>/IC_HeaderSet',
 					         sorter : {
-					            path : 'IC' 
+					            path : 'Icno' 
 					         }
 					      }" >
 					      <items>
 					         <ObjectListItem
-					            title="{procedure>IC} - {procedure>Description}"
+					            title="{procedure>Icno} - {procedure>Ictxt}"
 					            type="Navigation"
 								press="onPress"
 					            />

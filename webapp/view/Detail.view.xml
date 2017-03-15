@@ -7,8 +7,8 @@
 		showNavButton="true"
 		navButtonPress="onNav">
 		<ObjectHeader
-			intro="{procedure>IC}"
-			title="{procedure>Description}"
+			intro="{procedure>Icno}"
+			title="{procedure>Ictxt}"
 			/>
 	</Page>
 </mvc:View>

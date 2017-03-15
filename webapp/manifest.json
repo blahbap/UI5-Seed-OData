@@ -9,6 +9,16 @@
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
 			"version": "1.0.0"
+		},
+		"dataSources": {
+			"procedureService": {
+				"uri": "/sap/opu/odata/sap/ZISSOW_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
 		}
 	},
 	"sap.ui": {
@@ -53,8 +63,7 @@
 				}
 			},
 			"procedure": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": "model/Procedures.json"
+				"dataSource": "procedureService"
 			}
 		},
 		"routing": {
